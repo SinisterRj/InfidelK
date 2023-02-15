@@ -2,6 +2,8 @@
 
 WARNING: Work in development!
 
+![InFiDEL K 3d view](https://github.com/SinisterRj/InfidelK/blob/main/Images/Infidelk.png)
+
 This is a low cost filament sensor based on:
 
 https://github.com/drspangle/infidel-sensor
