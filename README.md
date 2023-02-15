@@ -13,10 +13,12 @@ For configuration, calibration procedure and use, please check: https://www.klip
 ## Bill of Materials (BOM):
 
 ### Hardware:
-2x 623 bearings (preferably 623-2Z / 623-ZZ)
-1x 5x1,5mm N35 magnet
-2x 5x8mm pin (you can cut from 5mm drill rod)
-1x 3x21mm shaft (you can cut from 3mm drill rod)
+2x 623 bearings (preferably 623-2Z / 623-ZZ);\
+1x 5x1,5mm N35 magnet;\
+2x 5x8mm pin (you can cut from 5mm drill rod);\
+1x 3x21mm shaft (you can cut from 3mm drill rod);\
+1x M5 grub screw;\
+1x 4mm spring (from automatic pen).
 
 ### Electronics:
 2x ss49e hall sensors
