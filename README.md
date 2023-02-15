@@ -3,7 +3,9 @@
 WARNING: Work in development!
 
 This is a low cost filament sensor based on:
+
 https://github.com/drspangle/infidel-sensor
+
 https://www.thingiverse.com/thing:4138933
 
 For configuration, calibration procedure and use, please check: https://www.klipper3d.org/Hall_Filament_Width_Sensor.html
