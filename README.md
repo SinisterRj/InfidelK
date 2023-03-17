@@ -20,10 +20,17 @@ For configuration, calibration procedure and use, please check: https://www.klip
 2x 5x8mm pin (you can cut from 5mm drill rod);\
 1x 3x21mm shaft (you can cut from 3mm drill rod);\
 1x M5 grub screw;\
-1x 4mm spring (from automatic pen).
+1x 4mm OD spring (from automatic pen).
+Short length of PTFE tube
 
 ### Electronics:
 2x ss49e hall sensors
+
+### Tools for calibration:
+1x 2mm drill bit;\
+1x 1.75 mm drill bit;\
+1x 1.5 mm drill bit;\
+1x Caliper or micrometer.
 
 ### Extra:
 2x M3x4mm (5mm OD) brass heat insert
