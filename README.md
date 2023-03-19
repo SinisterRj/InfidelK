@@ -12,6 +12,8 @@ https://www.thingiverse.com/thing:4138933
 
 For configuration, calibration procedure and use, please check: https://www.klipper3d.org/Hall_Filament_Width_Sensor.html
 
+You will need 2 analogic inputs on your main board to use the sensors. If you don't have these analog inputs available, one option is to use an arduino uno/nano as a secondary MCU on klipper and use its I/O ports. To flash the arduino, follow these instructions: https://www.youtube.com/watch?v=-tm3PYYyXOY&t=237s or flash the pre-compiled firmware from here (atmega 328p CPUs only).
+
 ## Bill of Materials (BOM):
 
 ### Hardware:
