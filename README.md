@@ -37,3 +37,43 @@ Short length of PTFE tube
 ### Extra:
 2x M3x4mm (5mm OD) brass heat insert
 
+## Klipper configuration
+
+You can find an updated hall sensor module of klipper in klipper´s folder ot this github repo. Just download it and overwrite the original one at: `~/klipper/klippy/extras` on your klipper installation.
+
+This new module has new features as:
+1) 3 point calibration
+2) multiple sensor
+
+To configure your printer.cfg, you should give the sensor a name and define 3 points of calibration, like in the example bellow:
+```
+[hall_filament_width_sensor sensor_1]
+adc1: PC0
+adc2: PC1
+
+cal_dia1: 1.49
+cal_dia2: 1.75
+cal_dia3: 1.965
+
+raw_dia1: 12007
+raw_dia2: 11593
+raw_dia3: 11082
+
+default_nominal_filament_diameter: 1.75
+
+measurement_delay: 10
+measurement_interval: 1
+logging: True
+```
+
+And also, you must specify the sensor name for all the GCODEs now, like the these examples:
+
+`
+QUERY_FILAMENT_WIDTH SENSOR=sensor_1
+`
+`
+QUERY_RAW_FILAMENT_WIDTH SENSOR=sensor_1
+`
+`
+RESET_FILAMENT_WIDTH_SENSOR SENSOR=sensor_1
+`
