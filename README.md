@@ -41,9 +41,9 @@ Short length of PTFE tube
 
 You can find an updated hall sensor module of klipper in klipper´s folder ot this github repo. Just download it and overwrite the original one at: `~/klipper/klippy/extras` on your klipper installation.
 
-This new module has new features as:
-1) 3 point calibration
-2) multiple sensor
+This new module has new features:
+1) 3 point calibration;
+2) multiple sensor.
 
 To configure your printer.cfg, you should give the sensor a name and define 3 points of calibration, like in the example bellow:
 ```
@@ -70,10 +70,10 @@ And also, you must specify the sensor name for all the GCODEs now, like the thes
 
 `
 QUERY_FILAMENT_WIDTH SENSOR=sensor_1
-`
+`\
 `
 QUERY_RAW_FILAMENT_WIDTH SENSOR=sensor_1
-`
+`\
 `
 RESET_FILAMENT_WIDTH_SENSOR SENSOR=sensor_1
 `
