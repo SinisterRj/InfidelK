@@ -77,3 +77,7 @@ QUERY_RAW_FILAMENT_WIDTH SENSOR=sensor_1
 `
 RESET_FILAMENT_WIDTH_SENSOR SENSOR=sensor_1
 `
+
+Se você é brasileiro 🇧🇷, junte-se a nós no Discord:
+https://discord.gg/3DyXfGwWJY
+
